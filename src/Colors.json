@@ -1,0 +1,55 @@
+{
+	"colors": {
+			"TXT":{
+				"8_16C": {
+					"Black": "\u001b[30m",
+					"Bright_Black": "\u001b[90m",
+					"Red": "\u001b[31m",
+					"Bright_Red": "\u001b[91m",
+					"Green": "\u001b[32m",
+					"Bright_Green": "\u001b[92m",
+					"Yellow": "\u001b[33m",
+					"Bright_Yellow": "\u001b[93m",
+					"Blue": "\u001b[34m",
+					"Bright_Blue": "\u001b[94m",
+					"Magenta": "\u001b[35m",
+					"Bright_Magenta": "\u001b[95m",
+					"Cyan": "\u001b[36m",
+					"Bright_Cyan": "\u001b[96m",
+					"White": "\u001b[37m",
+					"Bright_White": "\u001b[97m"
+				}
+			},
+			"BKG": {
+				"8_16C": {
+					"Black": "\u001b[40m",
+					"Bright_Black": "\u001b[100m",
+					"Red": "\u001b[41m",
+					"Bright_Red": "\u001b[101m",
+					"Green": "\u001b[42m",
+					"Bright_Green": "\u001b[102m",
+					"Yellow": "\u001b[43m",
+					"Bright_Yellow": "\u001b[103m",
+					"Blue": "\u001b[44m",
+					"Bright_Blue": "\u001b[104m",
+					"Magenta": "\u001b[45m",
+					"Bright_Magenta": "\u001b[105m",
+					"Cyan": "\u001b[46m",
+					"Bright_Cyan": "\u001b[106m",
+					"White": "\u001b[47m",
+					"Bright_White": "\u001b[107m"
+				}
+			}
+		},
+		"ESP": {
+					"Default": "\u001b[39m",
+					"Reset": "\u001b[0m",
+					"Strikethrough": "\u001b[9m",
+					"Inverse": "\u001b[7m",
+					"Underline": "\u001b[4m",
+					"StrongUnderline": "\u001b[21m",
+					"Bold": "\u001b[1m",	
+					"RGB": "\u001b[38;2"
+				}
+}
+
