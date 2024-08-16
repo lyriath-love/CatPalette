@@ -1,4 +1,4 @@
-module CuteRaimbow
+module CatPalette
 
 	using JSON # JSON LIB.
 
