@@ -102,6 +102,55 @@ module CatPalette
 	# "color-model" so, every color print function is divided and
 	# enumerated.
 	
+	# The objetive of these variables is: change the color of a print
+	# using the main print function of julia in the string itself. 
+	# These variables are called: "cv" (color variables)
+	
+	NT_black = NCL.Black
+	NT_red = NCL.Red
+	NT_green = NCL.Green
+	NT_yellow = NCL.Yellow
+	NT_blue = NCL.Blue
+	NT_magenta = NCL.Magenta
+	NT_cyan = NCL.Cyan
+	NT_white = NCL.White
+
+	BT_black = NBCL.Black
+	BT_red = NBCL.Red
+	BT_green = NBCL.Green
+	BT_yellow = NBCL.Yellow
+	BT_blue = NBCL.Blue
+	BT_magenta = NBCL.Magenta
+	BT_cyan = NBCL.Cyan
+	BT_white = NBCL.White
+
+	NB_black = BCL.Black
+	NB_red = BCL.Red
+	NB_green = BCL.Green
+	NB_yellow = BCL.Yellow
+	NB_blue = BCL.Blue
+	NB_magenta = BCL.Magenta
+	NB_cyan = BCL.Cyan
+	NB_white = BCL.White
+	
+	BB_black = BBCL.Black
+	BB_red = BBCL.Red
+	BB_green = BBCL.Green
+	BB_yellow = BBCL.Yellow
+	BB_blue = BBCL.Blue
+	BB_magenta = BBCL.Magenta
+	BB_cyan = BBCL.Cyan
+	BB_white = BBCL.White
+
+	default = ESPL.Default
+	reset = ESPL.Reset
+	strikethrough = ESPL.Strikethrough
+	inverse = ESPL.Inverse
+	underline = ESPL.Underline
+	strongunderline = ESPL.StrongUnderline
+	bold = ESPL.Bold
+	rgb = ESPL.RGB
+
 	# ERRMSG$ (Error Message (Number)) These are the error messages. Changue it if you want.
 
 	ERRMSG1(ARGUMENT::Any, LINE::Any) = return "[    ERR    ] CatPalet ERROR. Argument two (' $ARGUMENT ') in function call: Wrong or not given. Argument two has to be 'TXT' (For text) Or 'BKG' (For background). Line: $LINE"	
@@ -145,6 +194,51 @@ module CatPalette
 	export su!
 	export bold!
 	export RGB!
+
+	export NT_black
+	export NT_red
+	export NT_green
+	export NT_yellow
+	export NT_blue
+	export NT_magenta
+	export NT_cyan
+	export NT_white
+
+	export BT_black
+	export BT_red
+	export BT_green
+	export BT_yellow
+	export BT_blue
+	export BT_magenta
+	export BT_cyan
+	export BT_white
+
+	export NB_black
+	export NB_red
+	export NB_green
+	export NB_yellow
+	export NB_blue
+	export NB_magenta
+	export NB_cyan
+	export NB_white
+	
+	export BB_black
+	export BB_red
+	export BB_green
+	export BB_yellow
+	export BB_blue
+	export BB_magenta
+	export BB_cyan
+	export BB_white
+
+	export default
+	export reset
+	export strikethrough
+	export inverse
+	export underline
+	export strongunderline
+	export bold
+	export rgb
 	
 	# There are basic modules, they got 8-16 colors with a TEXT given as an
 	# argument.
@@ -573,5 +667,4 @@ module CatPalette
 	function RGB!(R::Int, G::Int, B::Int)
 		println(ESPL.RGB * ";$R;$G;$B" * "m")
 	end # Color-model N°32 (Especial: RGB) (Changes print type)
-
 end
