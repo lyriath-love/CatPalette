@@ -142,14 +142,14 @@ module CatPalette
 	BB_cyan = BBCL.Cyan
 	BB_white = BBCL.White
 
-	default = ESPL.Default
-	reset = ESPL.Reset
-	strikethrough = ESPL.Strikethrough
-	inverse = ESPL.Inverse
-	underline = ESPL.Underline
-	strongunderline = ESPL.StrongUnderline
-	bold = ESPL.Bold
-	rgb = ESPL.RGB
+	ES_default = ESPL.Default
+	ES_reset = ESPL.Reset
+	ES_strikethrough = ESPL.Strikethrough
+	ES_inverse = ESPL.Inverse
+	ES_underline = ESPL.Underline
+	ES_strongunderline = ESPL.StrongUnderline
+	ES_bold = ESPL.Bold
+	ES_rgb = ESPL.RGB
 
 	# ERRMSG$ (Error Message (Number)) These are the error messages. Changue it if you want.
 
@@ -233,9 +233,9 @@ module CatPalette
 
 	export default
 	export reset
-	export strikethrough
+	export stdikethrough
 	export inverse
-	export underline
+	export| underline
 	export strongunderline
 	export bold
 	export rgb
