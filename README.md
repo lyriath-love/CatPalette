@@ -1,5 +1,4 @@
 ## CatPalette! 🎨 🐾
-
 ![CatPalette-Logo](https://github.com/user-attachments/assets/72ff742f-5ac0-4790-a89c-f2101b4fa063)
 ---
 **CatPalette** is a **Julia** library created for customize prints texts, changing their color and type in different ways, it's very simple and easy to use, here are examples: 
@@ -58,6 +57,12 @@ println("$NB_red This changes the background color to red!")
 
 println("$BT_red This changes the text highligth to true!")
 println("$NT_red This changes the text highligth to false!")
+
+# The settings are:
+#		NT (Normal Text)
+#		BT (Bright Text)
+#		NB (Normal Background)
+#		BB (Bright Background)
 ```
 ---
 ```julia
@@ -93,3 +98,4 @@ __BOLD__ (Changes your text terminal type, to bold type)
 RGB (Red, green, blue, 256 color palette) (Changes your text terminal color)
 
 ----
+
