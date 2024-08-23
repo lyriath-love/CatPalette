@@ -231,14 +231,14 @@ module CatPalette
 	export BB_cyan
 	export BB_white
 
-	export default
-	export reset
-	export stdikethrough
-	export inverse
-	export| underline
-	export strongunderline
-	export bold
-	export rgb
+	export ES_default
+	export ES_reset
+	export ES_stdikethrough
+	export ES_inverse
+	export ES_underline
+	export ES_strongunderline
+	export ES_bold
+	export ES_rgb
 	
 	# There are basic modules, they got 8-16 colors with a TEXT given as an
 	# argument.
